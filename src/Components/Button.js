@@ -1,11 +1,5 @@
-import "./button.css";
-
-function Button({ text /* operation */ }) {
-  return (
-    <button className={`button__${text}`} /* onClick={operation} */>
-      {text}
-    </button>
-  );
+function Button({ text, actionOnClick }) {
+  return <button onClick={actionOnClick}>{text}</button>;
 }
 
 export default Button;

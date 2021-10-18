@@ -1,4 +1,4 @@
-function NumberedBox({ number }) {
+function Number({ number }) {
   return (
     <div className="boxNumber">
       <p>{number}</p>
@@ -6,4 +6,4 @@ function NumberedBox({ number }) {
   );
 }
 
-export default NumberedBox;
+export default Number;
